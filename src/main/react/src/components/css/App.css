@@ -1,0 +1,46 @@
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #457e16;
+    background-color: #d3f0c6;
+    border-color: #57b643;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+    border-radius: ;
+}
+
+.alert-link {
+    font-weight: bold;
+    color: #245269;
+    text-decoration: none;
+}

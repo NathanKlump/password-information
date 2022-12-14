@@ -1,0 +1,9 @@
+processResources {
+    filesMatching('**/*.properties') {
+        def props = new Properties()
+        file(System.getenv('EA_PROPS_HOME') + '/PasswordInformationPortlet-sb/application.properties').withInputStream {
+            props.load(it)
+        }
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: props)
+    }
+}
